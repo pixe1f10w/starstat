@@ -1,0 +1,6 @@
+
+# These are passed to twistd. Here may go statstat args.
+TWISTD_OPTS="--logfile=/var/log/starstat.log starstat"
+
+# Adding path to starstat to PYTHONPATH.
+PYTHONPATH="/usr/admin/starstat"
